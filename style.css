@@ -2,4 +2,98 @@ body {
     --backcolor: lightblue;
     --thematiccolor: blue;
     --color: white;
+    --testcolor: 00;
+
+    background-color: var(--backcolor);
+}
+
+
+
+
+.topdiv {
+    background-color: var(--thematiccolor);
+    color: var(--color);
+    margin: -10px -10px 0 -10px;
+    display: flex;
+    justify-content: center;
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.entrada,
+.salida {
+    background-color: var(--testcolor);
+
+}
+
+.salida {
+    display: flex;
+    flex-direction: row;
+}
+
+select,
+#convertButton,
+#salidaTxt {
+    padding: 1rem;
+    font-size: large;
+}
+
+select {
+    border-radius: 10px;
+}
+
+#convertButton {
+    border-radius: 10px 0 0 10px;
+    margin-right: 0.2rem;
+}
+
+#convertButton:hover {
+    background-color: lightgray;
+}
+
+#convertButton:active {
+    font-weight: bold;
+    color: gray;
+    background-color: black;
+}
+
+#salidaTxt {
+    border-radius: 0 10px 10px 0;
+}
+
+@media (max-width: 650px) {
+    body {
+        background: red;
+    }
+
+    .calculadora {
+        flex-direction: column;
+    }
+
+    .salida {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #convertButton {
+        padding-left: 2.1rem;
+        padding-right: 2.1rem;
+        margin-right: 0;
+        border-radius: 10px;
+    }
+
+    span {
+        display: flex;
+    }
+
+    #salidaTxt {
+        border-radius: 10px;
+    }
 }
