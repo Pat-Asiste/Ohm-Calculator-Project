@@ -2,13 +2,11 @@ body {
     --backcolor: lightblue;
     --thematiccolor: blue;
     --color: white;
-    --testcolor: 00;
+    --testcolor: pink;
+    --testcolor2: orange;
 
     background-color: var(--backcolor);
 }
-
-
-
 
 .topdiv {
     background-color: var(--thematiccolor);
@@ -64,6 +62,10 @@ select {
     background-color: black;
 }
 
+span {
+    background-color: var(--testcolor2);
+}
+
 #salidaTxt {
     border-radius: 0 10px 10px 0;
 }
@@ -83,14 +85,15 @@ select {
     }
 
     #convertButton {
-        padding-left: 2.1rem;
-        padding-right: 2.1rem;
+        /* padding-left: 2.1rem;
+        padding-right: 2.1rem; */
         margin-right: 0;
         border-radius: 10px;
     }
 
     span {
         display: flex;
+        gap: 1rem;
     }
 
     #salidaTxt {
