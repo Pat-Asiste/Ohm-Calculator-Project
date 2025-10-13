@@ -8,4 +8,4 @@ let tolerancia = document.getElementById("color4").value;
 let r = (c1 + c2) * c3 / multiplicador;
 let resultado = r + " " + tolerancia;
 document.getElementById("salidaTxt").value = resultado;
-};
+}
