@@ -1,9 +1,10 @@
 body {
     --backcolor: lightblue;
+    --backcolormobile: 00;
     --thematiccolor: blue;
     --color: white;
-    --testcolor: pink;
-    --testcolor2: orange;
+    --testcolor: 00;
+    --testcolor2: white;
 
     background-color: var(--backcolor);
 }
@@ -72,7 +73,7 @@ span {
 
 @media (max-width: 650px) {
     body {
-        background: red;
+        background: var(--backcolormobile);
     }
 
     .calculadora {
