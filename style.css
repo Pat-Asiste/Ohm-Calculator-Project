@@ -1,10 +1,10 @@
 body {
-    --backcolor: lightblue;
+    --backcolor: 00;
     --backcolormobile: 00;
-    --thematiccolor: blue;
+    --thematiccolor: darkblue;
     --color: white;
     --testcolor: 00;
-    --testcolor2: white;
+    --testcolor2: black;
 
     background-color: var(--backcolor);
 }
