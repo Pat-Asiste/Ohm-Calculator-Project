@@ -5,7 +5,7 @@ let c3 = document.getElementById("color3").value;
 let multiplicador = document.getElementById("unidad").value;
 let tolerancia = document.getElementById("color4").value;
 
-let r = (c1 + c2) * c3 / multiplicador;
+let r = (c1 * 10 + c2) * c3 / multiplicador;
 let resultado = r + " " + tolerancia;
 document.getElementById("salidaTxt").value = resultado;
 }
