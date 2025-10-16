@@ -1,9 +1,10 @@
 body {
-    --backcolor: 00;
-    --backcolormobile: 00;
+    /* Paleta de colores */
+    --backcolor: initial;
+    --backcolormobile: initial;
     --thematiccolor: darkblue;
     --color: white;
-    --testcolor: 00;
+    --testcolor: initial;
     --testcolor2: black;
 
     background-color: var(--backcolor);
